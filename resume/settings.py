@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-jmiyfr!c*rc2_e#9iur%qgd4-brkh-)6(w9wmgp#ra&edyky^1
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '0.0.0.0',
+
     'salty-mountain-01036.herokuapp.com', '127.0.0.1'
 ]
 
