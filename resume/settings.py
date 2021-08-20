@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-jmiyfr!c*rc2_e#9iur%qgd4-brkh-)6(w9wmgp#ra&edyky^1
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '0.0.0.0',
+
     'salty-mountain-01036.herokuapp.com', '127.0.0.1'
 ]
 
@@ -56,25 +56,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'resume.urls'
 
-# TEMPLATES = [
-#     {
-#         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-#         'DIRS': [],
-#         'APP_DIRS': True,
-#         'OPTIONS': {
-#             'context_processors': [
-#                 'django.template.context_processors.debug',
-#                 'django.template.context_processors.request',
-#                 'django.contrib.auth.context_processors.auth',
-#                 'django.contrib.messages.context_processors.messages',
-#             ],
-#         },
-#     },
-# ]
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [(os.path.join(BASE_DIR, 'templates')),],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -86,6 +71,21 @@ TEMPLATES = [
         },
     },
 ]
+# TEMPLATES = [
+#     {
+#         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+#         'DIRS': [(os.path.join(BASE_DIR, 'templates')),],
+#         'APP_DIRS': True,
+#         'OPTIONS': {
+#             'context_processors': [
+#                 'django.template.context_processors.debug',
+#                 'django.template.context_processors.request',
+#                 'django.contrib.auth.context_processors.auth',
+#                 'django.contrib.messages.context_processors.messages',
+#             ],
+#         },
+#     },
+# ]
 
 WSGI_APPLICATION = 'resume.wsgi.application'
 
