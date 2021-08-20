@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
+    'salty-mountain-01036.herokuapp.com', '127.0.0.1'
 ]
 
 
